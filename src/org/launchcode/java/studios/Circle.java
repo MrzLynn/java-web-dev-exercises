@@ -1,4 +1,4 @@
-package org.launchcode.java.studios.areaofacircle;
+package org.launchcode.java.studios;
 
 public class Circle {
     public static void main(String[] args) {
