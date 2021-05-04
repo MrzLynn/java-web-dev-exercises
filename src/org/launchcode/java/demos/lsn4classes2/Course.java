@@ -7,6 +7,23 @@ public class Course {
     private Teacher instructor;
     private ArrayList<Student> enrolledStudents;
 
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "topic='" + topic + '\'' +
+                ", instructor=" + instructor +
+                ", enrolledStudents=" + enrolledStudents +
+                '}';
+    }
+
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather than
     //  just the class fields.
 
